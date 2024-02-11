@@ -1,3 +1,7 @@
+# Importation des bibliothèques & librairies nécessaires :
+# sqlite3 : une bibliothèque intégrée pour interagir avec des bases de données SQLite.
+# telethon : une bibliothèque tierce pour interagir avec l'API Telegram.
+# configparser : une bibliothèque intégrée pour parser des fichiers de configuration.
 import sqlite3
 from telethon import TelegramClient, events
 import configparser
